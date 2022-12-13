@@ -21,6 +21,7 @@ const ExploreItems = () => {
       `https://us-central1-nft-cloud-functions.cloudfunctions.net/explore?filter=${value}`
     );
     setExploreItems(data);
+    // Any comment
   }
 
   useEffect(() => {
@@ -37,6 +38,7 @@ const ExploreItems = () => {
               key={index}
               className="d-item col-lg-3 col-md-6 col-sm-6 col-xs-12 nft__item"
               style={{ display: "block", backgroundSize: "cover" }}
+              data-aos="fade-in" data-aos-delay="400"
             >
               <div className="author_list_pp">
                 <div
